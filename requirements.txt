@@ -9,3 +9,4 @@ mediapipe==0.8.9.1
 plotly==5.1.0
 finnhub_python==2.4.7
 Pillow==9.0.0
+xlrd==1.0.0

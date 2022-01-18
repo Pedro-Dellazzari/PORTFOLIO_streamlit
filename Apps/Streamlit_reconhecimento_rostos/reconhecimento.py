@@ -1,6 +1,5 @@
 #Importando as bibliotecas 
 import streamlit as st
-import matplotlib.pyplot as plt 
 import cv2
 import numpy as np
 import PIL.Image

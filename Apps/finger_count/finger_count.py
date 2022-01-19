@@ -52,10 +52,8 @@ def app():
                      "Basta apertar o botão 'Run' para começar. "
                      "Mostre as mãos para o algoritmo reconhecer")
 
-    try:
-        cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
-    except:
-        cap = cv2.VideoCapture(1, cv2.CAP_DSHOW)
+
+    cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
     # Para começar o aplicativo
     run = st.checkbox('Run')
